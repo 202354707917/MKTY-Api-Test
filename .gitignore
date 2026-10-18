@@ -1,0 +1,10 @@
+# Postman local workspace 
+.postman/local/ 
+ECHO 处于打开状态。
+# OS files 
+.DS_Store 
+Thumbs.db 
+ECHO 处于打开状态。
+# Editor 
+.vscode/ 
+.idea/
