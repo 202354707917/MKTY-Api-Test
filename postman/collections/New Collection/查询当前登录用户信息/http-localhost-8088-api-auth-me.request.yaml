@@ -1,0 +1,9 @@
+$kind: http-request
+name: '查询当前登录用户信息'
+url: 'http://localhost:8088/api/auth/me'
+method: GET
+body:
+  type: none
+auth:
+  type: noauth
+order: 1000

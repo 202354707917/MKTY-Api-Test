@@ -1,0 +1,9 @@
+$kind: http-request
+name: '查询单条病历'
+url: 'http://localhost:8088/api/records/2109308859140743170'
+method: GET
+body:
+  type: none
+auth:
+  type: noauth
+order: 1000

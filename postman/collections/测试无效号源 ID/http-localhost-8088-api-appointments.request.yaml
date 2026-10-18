@@ -1,0 +1,13 @@
+$kind: http-request
+name: http://localhost:8088/api/appointments
+description: ""
+url: http://localhost:8088/api/appointments
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"scheduleId\": \"999999999999999999\"\r
+
+    }"
+order: 1000

@@ -1,0 +1,15 @@
+$kind: http-request
+name: http://localhost:8088/api/auth/me
+description: ""
+url: http://localhost:8088/api/auth/me
+method: GET
+body:
+  type: json
+  content: ""
+auth:
+  type: noauth
+scripts:
+  - type: beforeRequest
+    code: pm.request.headers.remove("Cookie");
+    language: text/javascript
+order: 1000

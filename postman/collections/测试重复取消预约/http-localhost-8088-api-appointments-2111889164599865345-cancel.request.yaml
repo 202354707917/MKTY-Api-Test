@@ -1,0 +1,6 @@
+$kind: http-request
+name: http://localhost:8088/api/appointments/2111889164599865345/cancel
+description: ""
+url: http://localhost:8088/api/appointments/2111889164599865345/cancel
+method: POST
+order: 1000

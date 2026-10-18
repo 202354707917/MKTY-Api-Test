@@ -1,0 +1,6 @@
+$kind: http-request
+name: http://localhost:8088/api/appointments
+description: ""
+url: http://localhost:8088/api/appointments
+method: GET
+order: 1000

@@ -1,0 +1,9 @@
+$kind: http-request
+name: '查询当前患者自己的病历列表'
+url: 'http://localhost:8088/api/records'
+method: GET
+body:
+  type: none
+auth:
+  type: noauth
+order: 1000

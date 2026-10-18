@@ -1,0 +1,15 @@
+$kind: http-request
+name: http://localhost:8088/api/users/2107236120681091073/status
+description: ""
+url: http://localhost:8088/api/users/2107236120681091073/status
+method: PUT
+body:
+  type: json
+  content: "\r
+
+    {\r
+
+    \  \"status\": \"ACTIVE\"\r
+
+    }\r\n"
+order: 1000
